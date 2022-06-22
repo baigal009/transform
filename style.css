@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100vh;
+	width: 100%;
+	background-color:lightgray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+	background-color:rgba(0, 0, 0, 0.1);
+	height: 400px;
+	width: 600px;
+	border:1px solid blue;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow:0 0 60px 10px blue inset;
+
+}
+.container:hover{
+	
+}
+.one{
+	background-color: green;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+
+
+
+}
+.one:hover{
+	transform: translateX(251px);
+	transition: 0.9s ease;
+	background-color:red;
+
+	
+
+}
+.four{
+	background-color:red;
+	height: 200px;
+	width: 100px;
+	margin-left: 150px;
+	border-top-right-radius: 120px;
+	border-bottom-right-radius: 120px;
+}
+
+
+.four:hover{
+	transform: translateX(-249px);
+	transition: 0.9s ease;
+	background-color: green;
+	
+}
